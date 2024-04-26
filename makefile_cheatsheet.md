@@ -16,7 +16,7 @@ CXXFLAGS = -g -std=c++23 -Wall
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 ```
 
-# Automatic variables
+## Automatic variables
 
 | Variable | Description                                  |
 | -------- | -------------------------------------------- |
@@ -28,7 +28,7 @@ CXXFLAGS = -g -std=c++23 -Wall
 - `$<`: Represents the first prerequisite of a rule. It refers to the name of the first prerequisite (usually a source file) of the target being built. This is particularly useful in compilation rules when there's only one source file involved.
 - `$@`: Represents the target of the rule. It refers to the name of the target being built. This variable is helpful when you want to refer to the target name in the recipe.
 
-# Operators
+## Operators
 
 | Operator       | Description                    |
 | -------------- | ------------------------------ |
@@ -40,7 +40,7 @@ CXXFLAGS = -g -std=c++23 -Wall
 - `?=` is used for conditional assignment. It only assigns the value to the variable if the variable is currently undefined. If the variable is already defined, `?=` does not change its value.
 - `+=` is used for appending values to existing variables. It adds the specified value to the end of the current value of the variable.
 
-# Variables
+## Variables
 
 | Variable               | Description                           |
 | ---------------------- | ------------------------------------- |
@@ -49,7 +49,7 @@ CXXFLAGS = -g -std=c++23 -Wall
 |                        |                                       |
 |                        |                                       |
 
-# Flags
+## Flags
 
 | Option    | Description                                       |
 | --------- | ------------------------------------------------- |
@@ -57,6 +57,14 @@ CXXFLAGS = -g -std=c++23 -Wall
 | `-f FILE` | Read FILE as a makefile.                          |
 | `-k`      | Keep going when some targets can't be made.       |
 | `-h`      | Print help and exit.                              |
+
+## Targets
+
+| Option   | Description                                                                                                                             |
+| -------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| `.PHONY` | Used to declare targets that don't represent output files, ensuring they're always executed regardless of file existence or timestamps. |
+| `all`    | Typically used to specify the default target                                                                                            |
+| `clean`  | Conventionally used to define rules for cleaning up the project directory by removing generated files or artifacts.                     |
 
 <https://stackoverflow.com/questions/18136918/how-to-get-current-relative-directory-of-your-makefile>
 

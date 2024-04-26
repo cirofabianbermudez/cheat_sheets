@@ -15,7 +15,7 @@ Useful reference files for multiple tools.
 - [**Verilog**]()
 - [**SystemVerilog**]()
 - [**C**]()
-- [**C++**]()
+- [**C++**](cpp_cheatsheet.md)
 - [**Python**]()
 - [**Bash**]()
 
