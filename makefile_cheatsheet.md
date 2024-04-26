@@ -1,11 +1,3 @@
----
-aliases: empty
-authors: Ciro Bermudez
-created: 2024-03-22T16:37
-publish: false
-tags: 
-updated: 2024-04-26T10:09
----
 
 To select a different Makefile you can run
 

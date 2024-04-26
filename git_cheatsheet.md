@@ -1,11 +1,3 @@
----
-aliases: empty
-authors: Ciro Bermudez
-created: 2024-03-19T15:49
-publish: false
-tags: 
-updated: 2024-04-26T10:18
----
 
 ## How to manage multiple SSH keys
 

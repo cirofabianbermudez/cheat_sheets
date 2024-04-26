@@ -1,13 +1,3 @@
----
-aliases:
-  - "`tar`"
-  - empty
-authors: Ciro Bermudez
-created: 2024-01-26T17:47
-publish: false
-tags: 
-updated: 2024-04-26T10:09
----
 
 To see which terminals you have installed on your computer you can use the command:
 

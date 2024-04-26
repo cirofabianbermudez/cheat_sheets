@@ -1,13 +1,3 @@
----
-aliases:
-  - Windows
-  - empty
-authors: Ciro Bermudez
-created: 2024-03-29T12:57
-publish: false
-tags: 
-updated: 2024-04-26T10:20
----
 
 # Windows
 

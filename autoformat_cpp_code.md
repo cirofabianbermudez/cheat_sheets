@@ -1,11 +1,3 @@
----
-aliases: empty
-authors: Ciro Bermudez
-created: 2024-03-04T19:44
-publish: false
-tags: 
-updated: 2024-04-26T10:09
----
 
 Create a virtual environment in python
 
